@@ -17,4 +17,11 @@ $(document).ready(function () {
             // fadeIn及fadeOut同時使用可能會有衝突，所以可以用fadeTo替換，但要加上透明度參數)
         }
     });
+
+    //點選單滑動至該區
+    function ScrollTo(id_name) {
+        $('html,body').animate({
+            scrollTop: $('#' + id_name).offset().top
+        }, 1000);
+    }
 });
