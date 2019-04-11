@@ -93,8 +93,12 @@ nav .menu li {
     color: #727f86;
 }
 
-nav .menu li:hover {
-    border-radius: 10px;
+nav .menu li a {
+    text-decoration: none;
+    color: #727f86;
+}
+
+nav .menu li a:hover {
     color: black;
 }
 
