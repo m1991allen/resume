@@ -7,8 +7,7 @@
 }
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif, serif, "黑體-繁",
-    "STHeti", "微軟正黑體", "Microsoft JhengHei";
+  font-family: "Open Sans", Arial, Helvetica, sans-serif, serif, "黑體-繁", "STHeti", "微軟正黑體", "Microsoft JhengHei";
 }
 
 img {
@@ -133,9 +132,7 @@ nav .menu li:hover i {
   header {
     height: auto;
   }
-  .name,
-  nav .icon,
-  nav .menu {
+  .name, nav .icon, nav .menu {
     position: static;
   }
   nav .icon {
@@ -171,8 +168,7 @@ nav .menu li:hover i {
   overflow: scroll;
 }
 
-.about div h2,
-.about div ul {
+.about div h2, .about div ul {
   color: white;
 }
 
@@ -233,9 +229,11 @@ nav .menu li:hover i {
 .layout_1_3:hover {
   -webkit-filter: grayscale(0);
 }
+
 .img0 {
   background-image: url(../images/p0.png);
 }
+
 .img1 {
   background-image: url(../images/p1.png);
 }
@@ -282,6 +280,14 @@ nav .menu li:hover i {
 
 .img12 {
   background-image: url(../images/p12.png);
+}
+
+.img13 {
+  background-image: url(../images/p13.png);
+}
+
+.img14 {
+  background-image: url(../images/p14.png);
 }
 
 @media screen and (max-width: 768px) {
